@@ -14,5 +14,7 @@ See my video on this project here: https://www.youtube.com/watch?v=loF59NwRn9Q
 
 # What have I learned
 
+Expanded knowledge about coding of shaders
+
 
 # Resaurces
