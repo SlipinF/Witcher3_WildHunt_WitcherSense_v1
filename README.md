@@ -18,3 +18,8 @@ Expanded knowledge about coding of shaders
 
 
 # Resaurces
+
+Unity
+
+Mixamo
+
