@@ -5,10 +5,12 @@ using UnityEngine;
 public class QlueLogic : MonoBehaviour
 {
     bool isSerching;
-    float floatToSet;
+   
+   float floatToSet;
     float _Distance;
 
-    Transform ReferenceToPlayer;
+   
+   Transform ReferenceToPlayer;
 
 
     [SerializeField]
