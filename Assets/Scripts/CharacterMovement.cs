@@ -5,8 +5,8 @@ using System;
 using UnityEngine.PostProcessing;
 
 
-    public class CharacterMovement : MonoBehaviour
-    {
+  public class CharacterMovement : MonoBehaviour
+  {
         public event Action OnSensingEvent;
         public event Action OnSensingFinishedEvent;
 
