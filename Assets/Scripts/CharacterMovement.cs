@@ -70,7 +70,8 @@ using UnityEngine.PostProcessing;
             }
             else{
 
-                if (camera.rightOffset >= 0f)
+               
+               if (camera.rightOffset >= 0f)
                     camera.rightOffset -= 0.01f;
                 if (camera.defaultDistance <= 2.5f)
                     camera.defaultDistance += 0.1f;
