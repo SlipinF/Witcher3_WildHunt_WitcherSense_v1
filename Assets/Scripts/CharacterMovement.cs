@@ -4,7 +4,6 @@ using UnityEngine;
 using System;
 using UnityEngine.PostProcessing;
 
-
   public class CharacterMovement : MonoBehaviour
   {            
         public event Action OnSensingEvent;
@@ -65,8 +64,8 @@ using UnityEngine.PostProcessing;
                 if (ppProfile.vignette.settings.intensity <= 0.2f)
                      ChangeVignetteAtRuntime(0.2f);
             }
-            else{
-
+            else
+{
                
                if (camera.rightOffset >= 0f)
                     camera.rightOffset -= 0.01f;
