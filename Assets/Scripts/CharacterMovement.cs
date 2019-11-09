@@ -22,7 +22,6 @@ using UnityEngine.PostProcessing;
         bool SetZoom;
         public float changeValue;
 
-
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.W))
