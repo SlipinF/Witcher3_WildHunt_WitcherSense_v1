@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class QlueLogic : MonoBehaviour
 {
-
-
    bool isSerching;
    float floatToSet;
    float _Distance;
