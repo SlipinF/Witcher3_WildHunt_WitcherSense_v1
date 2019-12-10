@@ -10,7 +10,6 @@ using UnityEngine.PostProcessing;
     
         public event Action OnSensingFinishedEvent;
         public float range = 100f;    
-
         [SerializeField]
         Animator animator;
 
