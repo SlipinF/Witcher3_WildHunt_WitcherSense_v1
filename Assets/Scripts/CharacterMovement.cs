@@ -36,7 +36,6 @@ using UnityEngine.PostProcessing;
             if (Input.GetKeyDown(KeyCode.Mouse1))
             {
                 OnSensingEvent?.Invoke();
-
                 SetZoom = true;
                 ppProfile.motionBlur.enabled = true;
                 ppProfile.chromaticAberration.enabled = true;
