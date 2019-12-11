@@ -58,7 +58,6 @@ using UnityEngine.PostProcessing;
                     camera.defaultDistance -= 0.1f;
                 if (camera.height <= 1.6f)
                     camera.height += 0.03f;;
-
                 if (ppProfile.vignette.settings.intensity <= 0.2f)
                      ChangeVignetteAtRuntime(0.2f);
             }
@@ -75,7 +74,6 @@ using UnityEngine.PostProcessing;
                 if (ppProfile.vignette.settings.intensity > 0.1f)
                             ChangeVignetteAtRuntime(-0.1f);            
             }
-
             void ChangeVignetteAtRuntime(float val)
             {
                 VignetteModel.Settings vignetteSettings = ppProfile.vignette.settings;
