@@ -32,7 +32,6 @@ using UnityEngine.PostProcessing;
             {
                 animator.SetBool("Walking", false);
             }
-
             if (Input.GetKeyDown(KeyCode.Mouse1))
             {
                 OnSensingEvent?.Invoke();
