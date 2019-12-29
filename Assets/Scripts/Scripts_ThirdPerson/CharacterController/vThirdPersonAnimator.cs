@@ -41,6 +41,8 @@ namespace Invector.CharacterController
                 // strafe extra speed
                 if (isStrafing)
                 {
+
+
                     if (strafeSpeed <= 0.5f)
                         ControlSpeed(strafeWalkSpeed);
                     else if (strafeSpeed > 0.5f && strafeSpeed <= 1f)
