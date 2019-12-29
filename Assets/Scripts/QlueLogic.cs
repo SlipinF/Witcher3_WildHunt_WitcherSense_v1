@@ -10,7 +10,6 @@ public class QlueLogic : MonoBehaviour
  
    Transform ReferenceToPlayer;
 
-
     [SerializeField]
     GameObject SoundsCircle;
 
