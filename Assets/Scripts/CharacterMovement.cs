@@ -7,11 +7,13 @@ using UnityEngine.PostProcessing;
   public class CharacterMovement : MonoBehaviour
   {         
     public event Action OnSensingEvent;  
+        
         public event Action OnSensingFinishedEvent;
         public float range = 100f;    
+        
         [SerializeField]
         Animator animator;
-
+        
         [SerializeField]
         vThirdPersonCamera camera;
 
@@ -46,7 +48,6 @@ using UnityEngine.PostProcessing;
                 ppProfile.motionBlur.enabled = false;
                 ppProfile.chromaticAberration.enabled = false;
             }
-
             if(SetZoom)
             {
             
