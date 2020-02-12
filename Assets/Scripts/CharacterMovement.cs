@@ -8,6 +8,7 @@ using UnityEngine.PostProcessing;
   {         
     public event Action OnSensingEvent;  
         
+        
         public event Action OnSensingFinishedEvent;
         public float range = 100f;    
         
@@ -51,6 +52,7 @@ using UnityEngine.PostProcessing;
             if(SetZoom)
             {
             
+            
                 if (camera.rightOffset <= 0.18f)
                 camera.rightOffset += 0.012f;
                 if (camera.defaultDistance >= 1f)
@@ -69,6 +71,7 @@ using UnityEngine.PostProcessing;
                     camera.defaultDistance += 0.1f;
                 if (camera.height >= 1.4f)
                     camera.height -= 0.03f;
+
 
                 if (ppProfile.vignette.settings.intensity > 0.1f)
                             ChangeVignetteAtRuntime(-0.1f);            
