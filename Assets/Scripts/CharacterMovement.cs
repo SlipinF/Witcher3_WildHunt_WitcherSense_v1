@@ -7,8 +7,7 @@ using UnityEngine.PostProcessing;
   public class CharacterMovement : MonoBehaviour
   {         
     public event Action OnSensingEvent;  
-        
-        
+            
         public event Action OnSensingFinishedEvent;
         public float range = 100f;    
         
@@ -51,8 +50,7 @@ using UnityEngine.PostProcessing;
             }
             if(SetZoom)
             {
-            
-            
+                      
                 if (camera.rightOffset <= 0.18f)
                 camera.rightOffset += 0.012f;
                 if (camera.defaultDistance >= 1f)
